@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Kungurtseva A"
+  },
+  "text": {
+    "more": "",
+    "intro": "В результате проведения операции модулярность выделилось 5 основных групп друзей:\n1. (роз) Одноклассники/учителя\n2. (свет-роз) однокурсники\n3. (зел) друзья из танцевального коллектива\n4. (гол) родственники/их друзья\n5. (орнж) друзья из игр\nПолученные группы совпадают с действительностью. ",
+    "title": "Vk friends"
+  },
+  "legend": {
+    "edgeLabel": "знакомство",
+    "colorLabel": "сообщество",
+    "nodeLabel": "человек"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
